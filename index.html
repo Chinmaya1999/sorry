@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I'm Sorry, My Love 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg"></canvas>
+  <canvas id="fx"></canvas>
+
+  <button id="mute" aria-label="Toggle music">🔇</button>
+
+  <!-- 1. Intro -->
+  <section class="scene active" id="intro">
+    <h1 class="glow" id="introTitle">I made something for you…</h1>
+    <p class="hint">tap the heart 💗</p>
+  </section>
+
+  <!-- 2. Letter -->
+  <section class="scene" id="letter">
+    <div class="letter-box" id="letterBox"></div>
+    <button class="btn next" id="toPromises">Continue 💌</button>
+  </section>
+
+  <!-- 3. Promises -->
+  <section class="scene" id="promises">
+    <h2 class="glow">My promises to you</h2>
+    <ul class="cards" id="cards"></ul>
+    <button class="btn next" id="toAsk">One last thing… 🥺</button>
+  </section>
+
+  <!-- 4. Ask -->
+  <section class="scene" id="ask">
+    <h2 class="glow big" id="askTitle">Will you forgive me?</h2>
+    <div class="buttons" id="buttons">
+      <button class="btn yes" id="yes">Yes 💖</button>
+      <button class="btn no" id="no">No</button>
+    </div>
+    <p class="hint" id="askHint"></p>
+  </section>
+
+  <!-- 5. Yes -->
+  <section class="scene" id="done">
+    <h1 class="glow huge" id="thanks"></h1>
+    <p class="sub" id="thanksSub"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
