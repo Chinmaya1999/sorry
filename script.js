@@ -2,8 +2,8 @@
    ✏️  EDIT THIS PART — make it yours!
    ========================================================= */
 const CONFIG = {
-  herName: "My Love",          // her name or nickname
-  myName: "Your Love",         // your name
+  herName: "Mama",          // her name or nickname
+  myName: "Chinmaya",         // your name
   letter: [
     "I know I hurt you, and I am so, so sorry.",
     "I was wrong. No excuses — you deserved better from me, and I hate that I made your heart ache.",
